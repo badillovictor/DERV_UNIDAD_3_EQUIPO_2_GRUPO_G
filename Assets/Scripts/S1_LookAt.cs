@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class S1_LookAt : MonoBehaviour
 {
-    private Transform _objectToLookAt;
-    
+    private Transform _objectToLookAt;    
     private S2_CalcularDistancia _calcularDistancia;
-    
     private void Awake()
     {
         _objectToLookAt = GameObject.Find("Jugador").GetComponent<Transform>();
