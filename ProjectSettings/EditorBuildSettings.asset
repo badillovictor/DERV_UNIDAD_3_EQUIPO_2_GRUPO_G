@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Exp_Singleton/EscenaSingleton1.unity
-    guid: 8b6502788e5b18d4a9d3df65ef41e800
+    path: Assets/Scenes/Exp_UI_adv/Escena 1 - Inicio.unity
+    guid: 477ae3da0895e5841ac5187faa6d3584
   - enabled: 1
-    path: Assets/Scenes/Exp_Singleton/EscenaSingleton2.unity
-    guid: f7f0a724cd38fc34fa6038a48edacb61
+    path: Assets/Scenes/Exp_UI_adv/Escena 2 - Dinamica V.unity
+    guid: cf582bffe7050074fb6b7efd120a2bdb
   - enabled: 1
-    path: Assets/Scenes/Exp_Singleton/EscenaSingleton3.unity
-    guid: cdaca5d532f10b94cbaa556abd49a29b
+    path: Assets/Scenes/Exp_UI_adv/Escena 3 - Fin.unity
+    guid: 4a6b834db9e78964d874d340acd4e2ba
   m_configObjects: {}

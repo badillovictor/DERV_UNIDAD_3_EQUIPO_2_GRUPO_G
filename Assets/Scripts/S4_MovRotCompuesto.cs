@@ -10,8 +10,8 @@ public class S4_MovRotCompuesto : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _moveSpeed = 10f;
-        _rotateSpeed = 15f;
+        _moveSpeed = 15f;
+        _rotateSpeed = 20f;
     }
 
     // Update is called once per frame

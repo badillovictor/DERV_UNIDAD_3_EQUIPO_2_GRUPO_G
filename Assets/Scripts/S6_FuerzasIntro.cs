@@ -16,8 +16,6 @@ public class S6_FuerzasIntro : MonoBehaviour
         _rb = GetComponent<Rigidbody>();
         _forceVelocity = 150f;
         /*
-        _rb = GetComponent<Rigidbody>();
-        _forceVelocity = 10f;
         //Instantaneos
         _rb.AddForce(_forceVelocity * transform.right, ForceMode.Impulse);      //Considera Masa
         _rb.AddForce(5f * -1 * transform.forward, ForceMode.VelocityChange);    //Ignoras Masa
