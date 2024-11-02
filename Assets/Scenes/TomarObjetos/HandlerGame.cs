@@ -9,12 +9,11 @@ using Random = UnityEngine.Random;
 
 public class HandlerGame : MonoBehaviour
 {
-    public List<GameObject> cubeList;
-    //private List<int> _cubeIndexControlList;
-    public int currentObjective;
-    public bool isPlaying;
-    public TextMeshProUGUI objectiveText;
-    public bool gameComplete;
+    public List<GameObject> cubeList;   //Lista de cubos en el mapa
+    public int currentObjective;    //Cubo el cual es el objetivo actual
+    public bool isPlaying;  //Variable que checa si el jugador tiene un objetivo actual
+    public TextMeshProUGUI objectiveText;   //TMP que muestra el objetivo actual
+    public bool gameComplete;   //Bandera de jeugo completado
 
     private void Awake()
     {
@@ -28,7 +27,6 @@ public class HandlerGame : MonoBehaviour
     void Start()
     {
         gameComplete = false;
-        //_cubeIndexControlList = new List<int>{0, 1, 2};
         ChangeTarget();
     }
 

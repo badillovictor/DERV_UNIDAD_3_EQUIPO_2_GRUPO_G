@@ -5,12 +5,12 @@ using UnityEngine;
 public class HandlerTomarObjetosEjercicio : MonoBehaviour
 {
     // El retornar a la escala original requiere usuario perfectos*
-    public bool isLifting;
-    public bool isObjectNear;
-    public GameObject objectTaken;
-    private Transform _father;
-    public Vector3 originalScale;
-    public bool scaleSaveLock;
+    public bool isLifting;  //Checar si el usuario esta levantando un objeto
+    public bool isObjectNear;   //Checar si el usuario esta en posicion para levantar un objeto
+    public GameObject objectTaken;  //Objeto levantado
+    private Transform _father;  //Transform del jugador (capsula)
+    public Vector3 originalScale;   //Escala orignial del objeto levantado
+    public bool scaleSaveLock;  //Bandera para no sobrescribir la variable de escala orignial
 
     private void Awake()
     {
